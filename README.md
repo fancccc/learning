@@ -5,9 +5,11 @@
 - docker save --output=/path/to/directory/myimage.tar myimage:latest
 - docker load < tar-file
 - docker images
+- docker ps -a #查看所有容器
 
 ## Linux
 - CUDA_VISIBLE_DEVICES=0 python train.py
+- rm model-{1..300}.pt (remove model-1.pt - model-300.pt)
 
 ## URL
 -清华源 https://pypi.tuna.tsinghua.edu.cn/simple
