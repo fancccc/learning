@@ -8,3 +8,6 @@
 
 ## Linux
 - CUDA_VISIBLE_DEVICES=0 python train.py
+
+## URL
+-清华源 https://pypi.tuna.tsinghua.edu.cn/simple
