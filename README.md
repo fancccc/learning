@@ -12,6 +12,8 @@
 ## Linux
 - CUDA_VISIBLE_DEVICES=0 python train.py
 - rm model-{1..300}.pt (remove model-1.pt - model-300.pt)
+- 解压：tar zxvf FileName.tar.gz
+- 压缩：tar zcvf FileName.tar.gz DirName
 
 ## URL
 -清华源 https://pypi.tuna.tsinghua.edu.cn/simple
