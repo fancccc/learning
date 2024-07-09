@@ -6,6 +6,8 @@
 - docker load < tar-file
 - docker images
 - docker ps -a #查看所有容器
+- docker start fanc
+- docker attach fanc
 
 ## Linux
 - CUDA_VISIBLE_DEVICES=0 python train.py
