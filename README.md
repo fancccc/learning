@@ -1,7 +1,8 @@
 ## Docker
 - docker search ***
 - docker pull ***
-- docker run -it --name fanc -v /disk2/fanc:/app --gpus all --network host ubuntu:latest /bin/bash (--gpus load nvidia, --network host use host network)
+- docker run -it --shm-size=2048m --name fanc -v /disk2/fanc:/app --gpus all --network host ubuntu:latest /bin/bash (--gpus load nvidia, --network host use host network)
+- docker commit [容器ID或名称] [新镜像名称]
 - docker save --output=/path/to/directory/myimage.tar myimage:latest
 - docker load < tar-file
 - docker images
