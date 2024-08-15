@@ -17,7 +17,10 @@
 - 压缩：tar zcvf FileName.tar.gz DirName
 
 ## URL
--清华源 https://pypi.tuna.tsinghua.edu.cn/simple
+- 清华源 https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## Git
- - git reset --soft origin 重置本地commit\add 
+ - git reset --soft origin 重置本地commit\add
+ - git branch 查看可用分支 (-r 远程分支)
+ - git checkout(switch) branch-name 切换分支
+ - git switch -c name origin/name
