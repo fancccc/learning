@@ -24,3 +24,7 @@
  - git branch 查看可用分支 (-r 远程分支)
  - git checkout(switch) branch-name 切换分支
  - git switch -c name origin/name
+
+## web
+ - https://github.com/NNBBXX/web-code-Collection(前端demo)
+ - https://github.com/abi/screenshot-to-code
